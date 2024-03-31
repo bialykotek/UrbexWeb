@@ -26,7 +26,7 @@ header {
     align-items: center;
 }
 #HeadLogo > h1 {
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 #Account > img {
@@ -82,7 +82,7 @@ h2 {padding: 10px;
 }
 
 footer {
-    font-size: small;
+    font-size: calc(0.6rem + 20%);
     color: white;
     background-color: rgb(20, 20, 20);
     display: flex;

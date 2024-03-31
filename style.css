@@ -4,6 +4,7 @@
     font-style: normal;
 }
 header {
+    font-size: small;
     color: white;
     background-color: rgb(20, 20, 20);
     width: auto;
@@ -11,7 +12,7 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-div > img {
+.logo {
     margin: 10px;
     border-radius: 20%;
     height: 80px;
@@ -36,8 +37,8 @@ div > img {
     padding: 50px;
 }
 #backImage > div {
-    font-weight: 350;
-    font-size: 5vh;
+    font-weight: 380;
+    font-size: 4vh;
     text-align: center;
     padding: 20vh 0px;
     margin: 0px 20vw;
@@ -53,10 +54,16 @@ h2 {padding: 10px;
 }
 
 .woj {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: white;
     margin: 50px;
     width: 500px;
     height: 25vh;
     background-color: rgb(36, 36, 36);
+    align-items: center;
+    justify-content: center;
 }
 
 #faq {
@@ -64,7 +71,7 @@ h2 {padding: 10px;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid rgb(0, 0, 0);
-    height: 50vh;
+    height: auto;
     width: 80vw;
 }
 
@@ -73,4 +80,26 @@ footer {
     background-color: rgb(20, 20, 20);
     display: flex;
     justify-content: space-around;
+}
+
+.FaqButton {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    padding: 4px;
+    height: 6vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.QuestionMore {
+    display: none;
+}
+
+.FaqButton + .QuestionMore {
+    padding: 10px;
+}
+
+.FaqButton > img {
+    height: 35%;
+    margin: 10px;
 }

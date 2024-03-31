@@ -3,8 +3,11 @@
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
+
+body {
+    overflow-x: hidden;
+}
 header {
-    font-size: small;
     color: white;
     background-color: rgb(20, 20, 20);
     width: auto;
@@ -21,6 +24,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#HeadLogo > h1 {
+    font-size: 2vh;
 }
 
 #Account > img {

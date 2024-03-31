@@ -76,6 +76,7 @@ h2 {padding: 10px;
 }
 
 footer {
+    font-size: small;
     color: white;
     background-color: rgb(20, 20, 20);
     display: flex;

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+header {
+    color: white;
+    background-color: rgb(20, 20, 20);
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div > img {
+    margin: 10px;
+    border-radius: 20%;
+    height: 80px;
+}
+#HeadLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Account > img {
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+#backImage {
+    background-image: url(BackImage.jpg);
+    background-position: center;
+}
+#backImage p {
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 50px;
+}
+#backImage > div {
+    font-weight: 350;
+    font-size: 5vh;
+    text-align: center;
+    padding: 20vh 0px;
+    margin: 0px 20vw;
+}
+h2 {padding: 10px;
+    text-align: center;}
+
+#Container {
+    padding: 10px 2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.woj {
+    margin: 50px;
+    width: 500px;
+    height: 25vh;
+    background-color: aquamarine;
+}
+
+#faq {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 50vh;
+    width: 80vw;
+}
+
+footer {
+    color: white;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+}

@@ -56,14 +56,14 @@ h2 {padding: 10px;
     margin: 50px;
     width: 500px;
     height: 25vh;
-    background-color: rgb(25, 182, 130);
+    background-color: rgb(36, 36, 36);
 }
 
 #faq {
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
     height: 50vh;
     width: 80vw;
 }

@@ -1,0 +1,26 @@
+html,body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.315);
+    height: 25rem;
+    width: 30rem;
+}
+#register {
+    padding: 15px;
+}
+
+#login {
+    padding: 15px;
+    border-right: 1px solid black;
+}

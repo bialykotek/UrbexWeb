@@ -70,6 +70,8 @@ h2 {padding: 10px;
     flex-wrap: wrap;
 }
 
+
+
 .woj {
     flex-direction: column;
     display: flex;
@@ -81,6 +83,15 @@ h2 {padding: 10px;
     background-color: rgb(36, 36, 36);
     align-items: center;
     justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.woj:hover {
+    width: 520px;
+    height: 26vh;
 }
 
 #faq {
@@ -120,4 +131,14 @@ footer {
 .FaqButton > img {
     height: 35%;
     margin: 10px;
+}
+
+#Panel {
+    text-align: center;
+    margin: 20px;
+}
+li {
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid black;
 }

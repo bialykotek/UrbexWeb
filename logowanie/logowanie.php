@@ -59,6 +59,7 @@ function rejestracja(event) {
 </script>
 
 <?php
+session_start();
 $polaczenie = mysqli_connect('localhost','root','','urbex');
 if (isset($_POST['loginr']) && isset($_POST['passr']) && isset($_POST['passr2'])) {
     $login = $_POST['loginr'];
@@ -68,7 +69,7 @@ if (isset($_POST['loginr']) && isset($_POST['passr']) && isset($_POST['passr2'])
     if (mysqli_num_rows($zapytanie) == 0) {
     mysqli_query($polaczenie, "INSERT INTO `uzytkownicy`(`login`, `haslo`) VALUES ('$login',PASSWORD('$passwd'))");
     $_SESSION["login"] = $login;
-    header('Location: ../index.html');
+    header('Location: ../index.php');
     }else {
         echo "<script>document.getElementById('message').innerText = 'Takie konto istnieje!'</script>";
     }
@@ -82,7 +83,7 @@ if (isset($_POST['loginl']) && isset($_POST['passl'])) {
     $lista = mysqli_fetch_assoc($zapytanie);
     if (mysqli_num_rows($zapytanie)) {
         $_SESSION["login"] = $login;
-        header('Location: ../index.html');
+        header('Location: ../index.php');
     }else {
         echo "<script>document.getElementById('message').innerText = 'Złe dane!'</script>";
     }
